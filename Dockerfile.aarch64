@@ -10,7 +10,7 @@
 #                   https://hub.docker.com/repository/docker/keeweb/alpine-base
 # #
 
-FROM docker-alpine-base:3.20-arm64
+FROM ghcr.io/keeweb/alpine-base:3.20-arm64
 
 # #
 #   Set Args
@@ -26,8 +26,8 @@ ARG NGINX_VERSION
 
 LABEL maintainer="Aetherinox"
 LABEL org.opencontainers.image.authors="Aetherinox"
-LABEL org.opencontainers.image.vendor="Aetherinox"
-LABEL org.opencontainers.image.title="Keeweb"
+LABEL org.opencontainers.image.vendor="Keeweb"
+LABEL org.opencontainers.image.title="Keeweb Password Manager"
 LABEL org.opencontainers.image.description="Keeweb password manager"
 LABEL org.opencontainers.image.source="https://github.com/keeweb/keeweb"
 LABEL org.opencontainers.image.documentation="https://github.com/keeweb/keeweb"
