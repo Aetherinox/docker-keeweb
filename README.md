@@ -1,6 +1,6 @@
 <div align="center">
 <h6>Docker image for Keeweb</h6>
-<h1>♾️ Keeweb Password Manager ♾️</h1>
+<h1>🔑 Keeweb Password Manager 🔑</h1>
 
 <br />
 

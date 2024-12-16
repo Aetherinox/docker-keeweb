@@ -7,7 +7,7 @@
 #   @repo           https://github.com/keeweb/keeweb
 #                   https://github.com/keeweb/docker-alpine-base
 #                   https://hub.docker.com/repository/docker/keeweb/keeweb
-#                   https://hub.docker.com/repository/docker/aetherinox/alpine-base
+#                   https://hub.docker.com/repository/docker/keeweb/alpine-base
 # #
 
 FROM docker-alpine-base:3.20-amd64
