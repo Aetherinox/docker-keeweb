@@ -62,8 +62,8 @@ RUN \
       logrotate \
       openssl \
       apache2-utils \
-      nginx \
-      nginx-mod-http-fancyindex && \
+      nginx==${NGINX_VERSION} \
+      nginx-mod-http-fancyindex==${NGINX_VERSION} && \
   echo "**** Install Build Packages ****" && \
   echo "**** Configure Nginx ****" && \
   echo 'fastcgi_param  HTTP_PROXY         ""; # https://httpoxy.org/' >> \
@@ -102,15 +102,8 @@ COPY root/ /
 EXPOSE ${PORT_HTTP} ${PORT_HTTPS}
 
 # #
-#   Add Cron Task Files
-# #
-
-ADD run.sh /
-ADD download.sh /
-
-# #
 #   In case user sets up the cron for a longer duration, do a first run
 #   and then keep the container running. Hacky, but whatever.
 # #
 
-CMD ["sh", "-c", "/run.sh ; /download.sh ; tail -f /dev/null"]
+# CMD ["sh", "-c", "/run.sh ; /task.sh ; tail -f /dev/null"]
