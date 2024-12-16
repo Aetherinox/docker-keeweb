@@ -10,7 +10,7 @@
 #                   https://hub.docker.com/repository/docker/aetherinox/alpine-base
 # #
 
-FROM docker-alpine-base:3.20-amd64
+FROM docker-alpine-base:3.20-arm64
 
 # #
 #   Set Args

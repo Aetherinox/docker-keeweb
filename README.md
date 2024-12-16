@@ -578,8 +578,8 @@ This image spits out detailed information about its current progress. You can ei
   [github-size-uri]: https://github.com/keeweb/keeweb/releases
 
 <!-- BADGE > NPMJS > DOWNLOAD SIZE -->
-  [npmjs-size-img]: https://img.shields.io/npm/unpacked-size/keeweb-docker/latest?logo=npm&label=Size&color=59702a
-  [npmjs-size-uri]: https://npmjs.com/package/keeweb-docker
+  [npmjs-size-img]: https://img.shields.io/npm/unpacked-size/keeweb/latest?logo=npm&label=Size&color=59702a
+  [npmjs-size-uri]: https://npmjs.com/package/keeweb
 
 <!-- BADGE > CODECOV > COVERAGE -->
   [codecov-coverage-img]: https://img.shields.io/codecov/c/github/keeweb/keeweb?token=MPAVASGIOG&logo=codecov&logoColor=FFFFFF&label=Coverage&color=354b9e
