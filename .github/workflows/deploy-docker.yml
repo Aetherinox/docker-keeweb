@@ -24,7 +24,7 @@ on:
             IMAGE_NAME:
                 description:  "📦 Image Name"
                 required:     true
-                default:      'alpine-base'
+                default:      'keeweb'
                 type:         string
 
             IMAGE_AUTHOR:
@@ -63,7 +63,7 @@ on:
 # #
 
 env:
-    IMAGE_NAME:           alpine-base
+    IMAGE_NAME:           keeweb
     IMAGE_AUTHOR:         keeweb
     BOT_NAME_1:           EuropaServ
     BOT_NAME_DEPENDABOT:  dependabot[bot]
